@@ -1,0 +1,28 @@
+{
+  "name": "nuxt3-vuetify-template",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "bash vuetify-monkey-patch.sh",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "vuetify": "^3.0.0-alpha.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-vue": "^8.0.3",
+    "nuxt3": "latest",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.43.4",
+    "typescript": "^4.5.2"
+  }
+}
